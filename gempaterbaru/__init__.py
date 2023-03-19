@@ -1,7 +1,7 @@
 import requests
 import bs4
 
-import gempaterkini
+import gempaterbaru
 
 
 def ekstrasi_data():
