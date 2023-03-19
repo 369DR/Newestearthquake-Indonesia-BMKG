@@ -1,6 +1,9 @@
 import requests
 import bs4
 
+import gempaterkini
+
+
 def ekstrasi_data():
     """
     Tanggal     : 18 Maret 2023,
@@ -74,5 +77,5 @@ def tampilkan_data(result):
     print(f"dirasakan,{result['dirasakan']}")
 
 if __name__ == '__main__':
-    print("ini adalah pckage gempa terkini")
-    print("Hai")
+    result = ekstrasi_data()
+    tampilkan_data(result)
