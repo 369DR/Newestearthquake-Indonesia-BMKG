@@ -7,7 +7,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="Newestearthquake-Indonesia-BMKG",
-    version="0.2",
+    version="0.3",
     author="Deni Rahmawan",
     author_email="denirahmawan17@gmail.com",
     description="This package will get the latest earthquake from BMKG | Meteorological, Climatological, "
