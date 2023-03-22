@@ -1,6 +1,8 @@
 import requests
 import bs4
 
+description = "To get the newestearthquake in Indonesia from bmkg.go.id"
+
 import gempaterbaru
 
 
